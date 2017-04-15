@@ -1,0 +1,40 @@
+$blue-facebook: #4B68B8;
+
+.facebook-button {
+    background-color: $blue-facebook;
+    border-color: $blue-facebook;
+    border-radius: 0;
+    color: #FFF;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    padding: .75em .5em;
+    box-shadow: none;
+    border: none;
+    border-radius: 2px;
+    vertical-align: middle;
+
+    &:hover {
+        background-color: darken($blue-facebook, 7);
+        border-color: darken($blue-facebook, 7);
+        color: #FFF;
+    }
+
+    .icon {
+        // position: absolute;
+        // left: 10%;
+        // top: 50%;
+        margin: 0 0.5em;
+        display: inline;
+        vertical-align: middle;
+        // transform: translate(0, -50%);
+        font-size: 2em;
+    }
+
+    .text {
+        display: inline;
+        text-align: center;
+        vertical-align: middle;
+    }
+}

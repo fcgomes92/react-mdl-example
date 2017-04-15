@@ -1,0 +1,21 @@
+$primary: #2196F3;
+$accent: #f44336;
+
+.selectable-list {
+    .selectable-list-item {
+        cursor: pointer;
+        transition: background-color 250ms ease;
+
+        &.selected {
+            background-color: $accent;
+
+            &:hover {
+                background-color: darken($accent, 14);
+            }
+        }
+
+        &:hover {
+            background-color: $primary;
+        }
+    }
+}

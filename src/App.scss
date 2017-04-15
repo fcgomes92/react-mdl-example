@@ -1,0 +1,41 @@
+$primary: #2196F3;
+$accent: #f44336;
+
+.main-content {
+    padding-top: 2em;
+    background: url("http://loremflickr.com/1920/1080") center / cover;
+}
+
+.card {
+    width: 90%;
+    margin: auto;
+    @media(min-width: 840px) {
+        width: 30%;
+        margin-left: 3em;
+    }
+
+    .card-title {
+        background: $primary;
+
+        img {
+            max-width: 100%;
+            padding: 1em 0;
+            margin: auto;
+        }
+
+        &-text {
+            margin: auto;
+            padding: 2em 0.5em 0;
+
+            h2 {
+                text-align: center;
+                font-size: 2em;
+                color: #212121;
+            }
+        }
+    }
+
+    .card-textfield {
+        width: 100%;
+    }
+}
