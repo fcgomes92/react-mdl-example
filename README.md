@@ -4,7 +4,7 @@ A [React-MDL](https://github.com/react-mdl/react-mdl) example project.
 
 Includes a [Selectable List Component](src/SelectableList.js) and a [Facebook Button Component](src/FacebookButton.js).
 
-Includes a posts list from a Wordpress website. (Not working on GitHub pages because the wordpress website is not HTTPS yet)
+Includes a posts list from a Wordpress website.
 
 ## How to use
 
