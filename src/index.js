@@ -46,7 +46,7 @@ class App extends React.Component {
     }
 
     handleFetchPosts = () => {
-        fetch('http://fcgomes.ddns.net/wp-json/wp/v2/posts', {method: 'GET'}).then(response => response.json()).then(response => {
+        fetch('https://fcgomes.ddns.net/wp-json/wp/v2/posts', {method: 'GET'}).then(response => response.json()).then(response => {
             this.setState({posts: response})
         }).catch(error => {
             console.error(error);
