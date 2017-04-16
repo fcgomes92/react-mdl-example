@@ -3,7 +3,7 @@ $accent: #f44336;
 
 .main-content {
     padding-top: 2em;
-    background: url("http://loremflickr.com/1920/1080") center / cover;
+    // background: url("http://loremflickr.com/1920/1080") center / cover;
 }
 
 .card {
@@ -12,6 +12,19 @@ $accent: #f44336;
     @media(min-width: 840px) {
         width: 30%;
         margin-left: 3em;
+    }
+
+    &-post-cell {
+        .card-post {
+          width: 100%;
+          margin: 1em auto;
+            &-title {
+                height: 15em;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
     }
 
     .card-title {

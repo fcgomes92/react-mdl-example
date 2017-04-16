@@ -3,8 +3,7 @@
  */
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-// eslint-disable-next-line
-import styles from './FacebookButton.css';
+import './FacebookButton.css';
 
 class FacebookButton extends Component {
     static propTypes = {

@@ -24,7 +24,9 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-mdl": "^1.10.0",
-    "vanilla-masker": "^1.1.1"
+    "sanitize-html": "^1.14.1",
+    "vanilla-masker": "^1.1.1",
+    "whatwg-fetch": "^2.0.3"
   },
   "devDependencies": {
     "gh-pages": "^0.12.0",
